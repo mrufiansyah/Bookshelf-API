@@ -118,11 +118,8 @@ const getAllBooksHandler = (request, h) => {
 
 // Kriteria 3 : API dapat menampilkan detail buku
 const getBookByIdHandler = (request, h) => {
-  const {
-    id,
-  } = request.params;
-
   // buku dengan id yang dilampirkan ditemukan
+  const { id } = request.params;
   const book = books.filter((b) => b.id === id)[0];
   if (book !== undefined) {
     return {

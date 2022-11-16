@@ -2,10 +2,10 @@
   "name": "bookshelf-api",
   "version": "1.0.0",
   "description": "submission-maulana-Belajar Membuat Aplikasi Back-End untuk Pemula-dicoding",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "lint": "eslint ./"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
   },
   "author": "maulana rufiansyah",
   "license": "ISC",
